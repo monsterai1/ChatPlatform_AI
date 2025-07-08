@@ -15,8 +15,9 @@
 
 ## 使用演示
 以下为项目运行效果截图（Gradio 前端界面）：
+```
 <img src="https://github.com/user-attachments/assets/146091a3-6c65-4f39-9012-a2a70095eb10" width="600">
-
+```
 用户评论：
 今天的菜很难吃！
 系统输出：
