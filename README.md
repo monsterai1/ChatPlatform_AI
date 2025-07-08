@@ -11,14 +11,19 @@
 
 
 ## 项目系统流程
-<img src="https://github.com/user-attachments/assets/77d1f9b9-6a0d-4a5a-b4ec-7abf16aa840b" width="600">
+<img src="https://github.com/user-attachments/assets/383a7e64-51f0-4ace-b69b-e3b1ae337bbb" width="600">
+
+流程说明：
+- 餐前评论优先尝试 FAQ 向量匹配，匹配失败则进入人工处理；
+- 餐后评论通过方面识别与情绪识别模块，判断是否调用大模型回复或转人工；
+- 所有对话记录都会进入 Memory 模块，支持多轮上下文记忆。
 
 ## 使用演示
 
 以下为项目运行效果截图（Gradio 前端界面）：  
 
 
-<img src="https://github.com/user-attachments/assets/146091a3-6c65-4f39-9012-a2a70095eb10" width="800">  
+<img src="https://github.com/user-attachments/assets/146091a3-6c65-4f39-9012-a2a70095eb10" width="1000">  
 
 
 用户评论：今天的菜很难吃！  
