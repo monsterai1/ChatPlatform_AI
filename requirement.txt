@@ -1,0 +1,7 @@
+gradio>=4.0
+transformers>=4.30
+chromadb>=0.4.20
+langchain>=0.1.0
+sentence-transformers>=2.2.2
+torch>=2.0
+openai>=1.0.0
